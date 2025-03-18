@@ -19,7 +19,7 @@ export default function App() {
       const rect = section.getBoundingClientRect();
       const threshold = window.innerHeight / 2;
 
-      if (rect.top < threshold && rect.bottom > threshold) {
+      if (rect.top < threshold) {
         const prevSelectedNav = document.querySelectorAll('.nav-select');
         prevSelectedNav[0].classList.remove('nav-select');
 
