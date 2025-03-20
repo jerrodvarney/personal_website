@@ -5,7 +5,7 @@ export default {
       title: 'VitaLog · In Development',
       description: 'A HIPAA-compliant, full-stack documentation and activity tracking system for assisted living facilities, complete with authentication, role-based access control, real-time data entry, secure cloud storage, automated compliance reporting, and administrative oversight tools. Designed to streamline staff workflows, improve resident care tracking, and ensure regulatory adherence with minimal friction.',
       technologies: ['React', 'FastAPI', 'PostgreSQL', 'AWS', 'OAuth'],
-      projectLink: 'https://github.com/jerrodvarney/superior',
+      projectLink: 'https://vitalog-eta.vercel.app/',
     },
     {
       imageURL: '/harper-cover.webp',
