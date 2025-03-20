@@ -1,21 +1,21 @@
 export default {
   projects: [
     {
-      imageURL: '/public/vitalog-cover.png',
+      imageURL: '../../public/vitalog-cover.png',
       title: 'VitaLog - In Development under Ravny',
       description: 'A HIPAA-compliant, full-stack documentation and activity tracking system for assisted living facilities, complete with authentication, role-based access control, real-time data entry, secure cloud storage, automated compliance reporting, and administrative oversight tools. Designed to streamline staff workflows, improve resident care tracking, and ensure regulatory adherence with minimal friction.',
       technologies: ['React', 'FastAPI', 'PostgreSQL', 'AWS', 'OAuth'],
       projectLink: 'https://github.com/jerrodvarney/superior',
     },
     {
-      imageURL: '/public/harper-cover.webp',
+      imageURL: '../../public/harper-cover.webp',
       title: 'Harper Woodward · Streaming and Chat',
       description: 'Developed a feature-rich portfolio platform for an artist, integrating authentication, payment processing, live streaming, and live chat within an agile team of seven. Designed and implemented a scalable one-to-many live-streaming and chat system using MediaSoup, WebRTC, and Socket.io, supporting 500+ simultaneous connections. Built an Express-based signaling server to efficiently manage real-time streaming and chat.',
       technologies: ['React', 'Express', 'WebRTC', 'Socket.io', 'MediaSoup'],
       projectLink: 'https://github.com/jerrodvarney/Harper-Woodward',
     },
     {
-      imageURL: '/public/superior-cover.jpg',
+      imageURL: '../../public/superior-cover.jpg',
       title: 'Superior · An Ecommerce Product Detail Page',
       description: 'A redesigned product detail page for an ecommerce site completed in an agile group of 4. Overview section allows the user to add to cart, add to wishlist, view and inspect galleries of the featured item, and select from its various styles.',
       technologies: ['React', 'Express', 'HTML', 'CSS', 'RESTful API'],
