@@ -45,8 +45,8 @@ export default function App() {
         <Bio />
         <div id="content">
           <About />
-          <Projects projects={projects} />
           <Experience experiences={experiences} />
+          <Projects projects={projects} />
           <Footer />
         </div>
       </div>
