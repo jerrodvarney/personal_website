@@ -2,21 +2,21 @@ export default {
   projects: [
     {
       imageURL: '/vitalog-cover.png',
-      title: 'VitaLog - In Development under Ravny',
+      title: 'VitaLog · In Development',
       description: 'A HIPAA-compliant, full-stack documentation and activity tracking system for assisted living facilities, complete with authentication, role-based access control, real-time data entry, secure cloud storage, automated compliance reporting, and administrative oversight tools. Designed to streamline staff workflows, improve resident care tracking, and ensure regulatory adherence with minimal friction.',
       technologies: ['React', 'FastAPI', 'PostgreSQL', 'AWS', 'OAuth'],
       projectLink: 'https://github.com/jerrodvarney/superior',
     },
     {
       imageURL: '/harper-cover.webp',
-      title: 'Harper Woodward · Streaming and Chat',
+      title: 'Harper Woodward',
       description: 'Developed a feature-rich portfolio platform for an artist, integrating authentication, payment processing, live streaming, and live chat within an agile team of seven. Designed and implemented a scalable one-to-many live-streaming and chat system using MediaSoup, WebRTC, and Socket.io, supporting 500+ simultaneous connections. Built an Express-based signaling server to efficiently manage real-time streaming and chat.',
       technologies: ['React', 'Express', 'WebRTC', 'Socket.io', 'MediaSoup'],
       projectLink: 'https://github.com/jerrodvarney/Harper-Woodward',
     },
     {
       imageURL: '/superior-cover.jpg',
-      title: 'Superior · An Ecommerce Product Detail Page',
+      title: 'Superior',
       description: 'A redesigned product detail page for an ecommerce site completed in an agile group of 4. Overview section allows the user to add to cart, add to wishlist, view and inspect galleries of the featured item, and select from its various styles.',
       technologies: ['React', 'Express', 'HTML', 'CSS', 'RESTful API'],
       projectLink: 'https://github.com/jerrodvarney/superior',
@@ -26,10 +26,10 @@ export default {
     {
       startDate: '2024',
       endDate: 'CURRENT',
-      title: 'Co-Founder and Software Engineer',
+      title: 'Co-Founder',
       company: 'Ravny',
       companySite: 'https://www.ravny.net/',
-      description: 'Leading development of custom enterprise software solutions - focusing on efficiency, transparency, and automation. Developing a HIPAA compliant Activity Tracker for Assisted Living Facilities to streamline documentation.',
+      description: 'Leading development of custom enterprise software solutions - focusing on security, transparency, and automation. Developing a HIPAA compliant Activity Tracker for Assisted Living Facilities to streamline documentation.',
       technologies: ['Product Management', 'UI/UX Design', 'Cutsomer Relations', 'AWS', 'Software Licensing', 'Data Analytics', 'Sales'],
     },
     {
