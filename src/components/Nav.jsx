@@ -13,13 +13,13 @@ export default function Nav() {
         <span className="nav-line" />
         <span className="nav-text">ABOUT</span>
       </a>
-      <a id="projects-nav" href="#projects" className="nav-link" onClick={changeNavSelect}>
-        <span className="nav-line" />
-        <span className="nav-text">PROJECTS</span>
-      </a>
       <a id="experience-nav" href="#experience" className="nav-link" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">EXPERIENCE</span>
+      </a>
+      <a id="projects-nav" href="#projects" className="nav-link" onClick={changeNavSelect}>
+        <span className="nav-line" />
+        <span className="nav-text">PROJECTS</span>
       </a>
     </div>
   );
