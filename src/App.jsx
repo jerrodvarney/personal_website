@@ -17,9 +17,8 @@ export default function App() {
 
     sections.forEach((section) => {
       const rect = section.getBoundingClientRect();
-      const threshold = window.innerHeight / 2;
 
-      if (rect.top < threshold) {
+      if (rect.top < 150) {
         const prevSelectedNav = document.querySelectorAll('.nav-select');
         prevSelectedNav[0].classList.remove('nav-select');
 
@@ -45,8 +44,8 @@ export default function App() {
         <Bio />
         <div id="content">
           <About />
-          <Experience experiences={experiences} />
           <Projects projects={projects} />
+          <Experience experiences={experiences} />
           <Footer />
         </div>
       </div>
